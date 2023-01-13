@@ -1,32 +1,46 @@
-.list-group-checkable .list-group-item {
-  cursor: pointer;
+.body{ 
+  background-color:#409fd6;
+  font-size:19px;
+  letter-spacing : 0.8px;
+  word-spacing: 0px;
+  color:aliceblue;
+  font-weight: 700;
+  text-decoration: underline solid rgb(0, 102, 204);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
 }
-.list-group-item-check {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
+
+.h1 {
+  background-color: #409fd6;
+  color: aliceblue;
+  
 }
-.list-group-item-check:hover + .list-group-item {
-  background-color: var(--bs-light);
+.hr {
+  background-color: blue;
 }
-.list-group-item-check:checked + .list-group-item {
-  color: #fff;
-  background-color: var(--bs-blue);
+
+INPUT[type=checkbox]:focus
+{
+    outline: 1px solid rgba(0, 0, 0, 0.2);
 }
-.list-group-item-check[disabled] + .list-group-item,
-.list-group-item-check:disabled + .list-group-item {
-  pointer-events: none;
-  filter: none;
-  opacity: .5;
+
+INPUT[type=checkbox]
+{
+    background-color: #DDD;
+    border-radius: 2px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+    position: relative;
+    top: 5px;
 }
-.container {
-  display: block;
-  position: relative;
-  padding-left: 35px;
-  margin-bottom: 12px;
-  cursor: pointer;
-  font-size: 22px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+
+INPUT[type=checkbox]:checked
+{
+    background-color: #409fd6;
+    background: #409fd6 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==") 3px 3px no-repeat;
 }

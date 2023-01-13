@@ -14,7 +14,7 @@ function handleSurvey(event) {
     output = "Ruby. You like shiny things.  Rubies are shiny.  Ruby is shiny!  Ruby is 'a dynamic, open source programming language with a focus on simplicity and productivity.'  and that's straight from the website, by the way."
   }
   else if (q3.checked == true && q4.checked == true) {
-    output = "C#.  Get it?  C.  Sea?  #(Sharp)?  Fencing?  See what I did there?"
+    output = "C#.  Get it?  C.  Sea?  #(Sharp)?  Fencing?  See what I did there? But seriously 'C# is a high-level, general-purpose programming language that is easy to read because of its well-defined class hierarchy. It is the perfect language for beginner developers as it will be straightforward to grasp compared to most other languages.'  You heard it here first, folks."
   }
   else if (q5.checked == true) {
     output = "JavaScript.  I don't know why, but JavaScript feels like a big flowy blanket where nothing is really solid and nothing is really tangible, but it's warm and you feel cozy somehow."
