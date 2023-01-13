@@ -6,6 +6,7 @@
   color:aliceblue;
   font-weight: 700;
   text-decoration: underline solid rgb(0, 102, 204);
+  text-decoration-thickness: 3px;
   font-style: normal;
   font-variant: normal;
   text-transform: none;
@@ -15,9 +16,6 @@
   background-color: #409fd6;
   color: aliceblue;
   
-}
-.hr {
-  background-color: blue;
 }
 
 INPUT[type=checkbox]:focus
@@ -43,4 +41,14 @@ INPUT[type=checkbox]:checked
 {
     background-color: #409fd6;
     background: #409fd6 url("data:image/gif;base64,R0lGODlhCwAKAIABAP////3cnSH5BAEKAAEALAAAAAALAAoAAAIUjH+AC73WHIsw0UCjglraO20PNhYAOw==") 3px 3px no-repeat;
+}
+
+.btn {
+  color:antiquewhite;
+  background-color: #409fd6;
+  border-color:rgb(0, 102, 204);
+  font-size: xx-large;
+  border-width: 15px;
+
+}
 }

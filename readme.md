@@ -26,8 +26,8 @@ Image Editing/Viewing software (to look at pretty pictures)
 
 Link to Site:
 
-Repository: https://github.com/Razieleron/razieleron.github.io
-Working Page: https://razieleron.github.io/
+My whole Repository: https://github.com/Razieleron/razieleron.github.io
+This *particular* repository: https://github.com/Razieleron/week-2-coding-review
 
 Known Bugs:
 

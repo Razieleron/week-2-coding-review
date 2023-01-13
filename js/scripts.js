@@ -20,7 +20,7 @@ function handleSurvey(event) {
     output = "JavaScript.  I don't know why, but JavaScript feels like a big flowy blanket where nothing is really solid and nothing is really tangible, but it's warm and you feel cozy somehow."
   }
   else {
-    output = "Wow.  You're hard to please.  Try .Net."
+    output = "Wow.  You're hard to please.  A person as agreeable as you should probably try the 'Befunge' language. It's super easy.  Trust me."
   }
 
 
