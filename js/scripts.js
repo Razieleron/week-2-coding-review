@@ -8,19 +8,19 @@ function handleSurvey(event) {
   let q5 = document.getElementById("q5");
 
   if (q1.checked == true) {
-    output = "python"
+    output = "Python.  Anyone who like snakes should learn Python.  And it obviously trumps every other thing you like, since liking snakes is pretty degenerate, if you ask me.  Just kidding, Python is one of the most widely used and powerful languages out there!"
   }
   else if (q2.checked == true) {
-    output = "ruby"
+    output = "Ruby. You like shiny things.  Rubies are shiny.  Ruby is shiny!  Ruby is 'a dynamic, open source programming language with a focus on simplicity and productivity.'  and that's straight from the website, by the way."
   }
   else if (q3.checked == true && q4.checked == true) {
-    output = "c#"
+    output = "C#.  Get it?  C.  Sea?  #(Sharp)?  Fencing?  See what I did there?"
   }
   else if (q5.checked == true) {
-    output = "javascript"
+    output = "JavaScript.  I don't know why, but JavaScript feels like a big flowy blanket where nothing is really solid and nothing is really tangible, but it's warm and you feel cozy somehow."
   }
   else {
-    output = ".net"
+    output = "Wow.  You're hard to please.  Try .Net."
   }
 
 
